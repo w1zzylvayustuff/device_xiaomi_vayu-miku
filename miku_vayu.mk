@@ -14,6 +14,9 @@ $(call inherit-product, vendor/miku/build/product/miku_product.mk)
 # Inherit from vayu device
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
+# Maintainer
+MIKU_MASTER := w1zzyl
+
 PRODUCT_NAME := miku_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_MANUFACTURER := Xiaomi
